@@ -117,6 +117,7 @@ class App extends Component {
           />
           <Button onClick={this.postPerson}>Login/register</Button>
           <p>{this.state.ssnFormatError}</p>
+          <h2>Registered users</h2>
           { listOfPerson }
           <hr />
           { this.state.currentPerson.ssn &&
